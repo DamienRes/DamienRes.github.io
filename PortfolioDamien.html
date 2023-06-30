@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damien Ressegaire - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+  <style type="text/css">
+    
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #4285F4;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+h2 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4285F4;
+  text-decoration: none;
+}
+
+.content {
+  margin: 0 5%;
+}
+
+#contact ul {
+  font-size: 18px;
+}
+
+#skills ul, #hobbies ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+#skills h4, .education-title, .skills-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.education-box, .skills-box {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-list {
+  display: flex;
+  padding: 3rem;
+  overflow-x: scroll;
+}
+
+.card-list::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.card {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+  grid-template-rows: auto 1fr auto auto;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+#about-me {
+  
+    
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-size: 1.2em; 
+    line-height: 1.6; 
+}
+#contact {
+    margin: 20px;
+    margin: 20px 5%;
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* ombre douce autour de la boîte */
+    font-size: 1.2em; /* taille de police plus grande */
+    line-height: 1.6; /* plus d'espace entre les lignes pour une meilleure lisibilité */
+}
+
+#contact ul {
+    list-style-type: none; /* supprime les puces de liste */
+    padding: 0; /* supprime le remplissage autour de la liste */
+}
+
+#contact li {
+    margin-bottom: 10px; /* ajoute un peu d'espace sous chaque élément de liste */
+}
+
+
+.card-text {
+  padding: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  overflow: auto;
+}
+
+.tags a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.5rem;
+  color: #7a7a8c;
+  text-transform: uppercase;
+  font-size: 0.66rem;
+  border: 3px solid #28242f;
+  border-radius: 2rem;
+  padding: 0.2rem 0.85rem 0.25rem;
+  position: relative;
+}
+
+.tags a:hover {
+  background: linear-gradient(90deg, #4285F4, #34A853);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  background-clip: text;
+  border-color: white;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Damien Ressegaire</h1>
+    <h2>Apprenticeship | IT Engineering Student</h2>
+  </header>
+
+ <section id="about-me">
+    <h3>About Me</h3>
+    <p>Hello, I'm Damien Ressegaire, an aspiring IT engineer in the midst of a software development apprenticeship, eagerly anticipating my graduation in 2025. I harbor a passion for software development, primarily directed towards crafting effective, efficient, and impactful applications.</p>
+    <a href="Damien_RESSEGAIRE_CV 2.pdf" class="main-btn" target="_blank">
+    <span class="btn-text">Download CV</span>
+      <span class="btn-icon"></span>
+  </section>
+  
+  <section id="contact">
+    <h3>Contact Information</h3>
+    <ul>
+      <li>Email: ressegairedamien@gmail.com</li>
+      <li>Phone: +33 7 82 54 84 67</li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/damien-ressegaire-b299b0222/" target="_blank">LinkedIn Profile</a></li>
+      <li>Location: Lyon, France</li>
+    </ul>
+  </section>
+
+  <div class="content">
+    <section id="education">
+      <h3>Education</h3>
+
+      <div class="education-box">
+        <h4 class="education-title">IT Engineering</h4>
+        <ul>
+          <li>Institution: CESI</li>
+          <li>Expected Graduation Year: 2025</li>
+        </ul>
+      </div>
+
+      <div class="education-box">
+        <h4 class="education-title">Integrated Preparatory Class</h4>
+        <ul>
+          <li>Institution: CESI</li>
+          <li>Graduation Year: 2022</li>
+        </ul>
+      </div>
+
+      <div class="education-box">
+        <h4 class="education-title">CCNA1</h4>
+        <ul>
+          <li>Institution: CISCO</li>
+          <li>Completion Year: 2022</li>
+        </ul>
+      </div>
+
+      <div class="education-box">
+        <h4 class="education-title">French Baccalauréat, Science Major</h4>
+        <ul>
+          <li>Year: 2020</li>
+        </ul>
+      </div>
+
+    </section>
+
+
+    <section id="work-experience">
+      <h3>Work Experience</h3>
+      <section class="card-list">
+
+        <article class="card">
+          <header class="card-header">
+            <p>Apr 2022 - Oct 2025 </p>
+            <h2>Developer Apprenticeship</h2>
+          </header>
+          <div class="card-text">
+            <p>Yad Informatique <br>
+              - Developed applications in C#.NET for an e-commerce platform<br>
+              - Updated and added new features to existing applications<br>
+              - Collaborated with customers to understand and address their requirements<br>
+              - Worked as part of a team to deliver high-quality software solutions</p>
+          </div>
+          <div class="tags">
+            <a href="#">C#</a>
+            <a href="#">.Net</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <header class="card-header">
+            <p>Apr 2018, one week</p>
+            <h2>Internship</h2>
+          </header>
+          <div class="card-text">
+            <p>
+              I completed an exploratory internship at STMicroelectronics, gaining a deep understanding of their infrastructure and the intricate process of superconductor fabrication. This experience provided unique insights into advanced semiconductor manufacturing techniques, thus laying a solid foundation in microelectronic industry practices and the understanding of superconductive materials.
+            </p>
+          </div>
+          <div class="tags">
+            <a href="#">Internship</a>
+            <a href="#">Microelectronics</a>
+          </div>
+        </article>
+
+      </section>
+    </section>
+
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <section class="card-list">
+        <!-- Add your other projects as card articles here -->
+        <article class="card">
+          <header class="card-header">
+            <p>Nov 2022</p>
+            <h2>Admin System</h2>
+          </header>
+          <div class="card-text">
+            <p>I spearheaded an Information Systems (IS) infrastructure project, where I set up and configured servers, implemented containerized services, and deployed a robust firewall. A unique aspect of this project was the strategic segregation of network spaces to isolate a website from external connections, thereby enhancing security and streamlined accessibility.</p>
+          </div>
+          <div class="tags">
+            <a href="#">docker</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <header class="card-header">
+            <p>Apr 2023</p>
+            <h2>System Programming</h2>
+          </header>
+          <div class="card-text">
+            <p>We are in the process of developing a C#.NET application to simplify data backup management. The application allows users to initiate backups based on certain constraints such as data size, file type, and more. One unique feature of our project is the ability to trigger backups from a different device over TCP, thus adding flexibility and remote accessibility.</p>
+          </div>
+          <div class="tags">
+            <a href="#">C#</a>
+            <a href="#">.Net</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <header class="card-header">
+            <p>Jun 2023</p>
+            <h2>Route Optimization Algorithm Development</h2>
+          </header>
+          <div class="card-text">
+            <p>I worked on a Python development project to create a metaheuristic-based algorithm designed to calculate the shortest route among multiple cities (ranging from 100 to 1000 cities). The innovative feature of this algorithm is its ability to factor in variations in travel time depending on the schedules of freight transport, thus optimizing route efficiency and delivery performance.</p>
+          </div>
+          <div class="tags">
+            <a href="#">Python</a>
+          </div>
+        </article>
+
+      </section>
+    </section>
+
+
+    <section id="skills">
+      <h3>Skills</h3>
+
+      <div class="skills-box">
+        <h4 class="skills-title">Programming Languages</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>PHP</li>
+          <li>C#</li>
+          <li>VB.NET</li>
+          <li>C</li>
+          <li>C++</li>
+        </ul>
+      </div>
+
+      <div class="skills-box">
+        <h4 class="skills-title">Languages</h4>
+        <ul>
+          <li>English: B2</li>
+          <li>French: Native</li>
+          <li>German: A2</li>
+        </ul>
+      </div>
+
+      <div class="skills-box">
+        <h4 class="skills-title">Tools and Technologies</h4>
+        <ul>
+          <li>Git</li>
+          <li>Azure</li>
+          <li>Docker</li>
+        </ul>
+      </div>
+
+      <div class="skills-box">
+        <h4 class="skills-title">Soft Skills</h4>
+        <ul>
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Adaptability</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="additional-info">
+      <h3>Additional Information</h3>
+      <ul>
+        <li>Driving License: Yes</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/damien-ressegaire-b299b0222/" target="_blank">LinkedIn Profile</a></li>
+      </ul>
+    </section>
+
+
+    <section id="hobbies">
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Table Tennis</li>
+        <li>Video Games</li>
+      </ul>
+    </section>
+  </div>
+</body>
+
+</html>
